@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Oluwafemi Ayoola | Data Analyst & Physical Activity Epidemiologist Portfolio" />
+    <title>Oluwafemi Ayoola | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(to right, #005bea, #00c6fb);
+            color: #fff;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        header img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid #fff;
+            margin-bottom: 1rem;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto 1rem;
+        }
+
+        .social-icons a {
+            color: #fff;
+            margin: 0 10px;
+            font-size: 1.5rem;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: #ffde59;
+        }
+
+        section {
+            padding: 4rem 2rem;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 2rem;
+            color: #005bea;
+        }
+
+        /* Skills Section */
+        .skills-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1.5rem;
+            text-align: center;
+        }
+
+        .skill {
+            padding: 1.5rem;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .skill:hover {
+            transform: translateY(-8px);
+        }
+
+        .skill i {
+            font-size: 2rem;
+            color: #00c6fb;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Projects Section */
+        .projects-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .project-card {
+            background: #fff;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: scale(1.03);
+        }
+
+        .project-card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .project-card h3 {
+            margin: 1rem 0 0.5rem;
+        }
+
+        .project-card a {
+            color: #005bea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        /* Contact Form */
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        input, textarea {
+            padding: 0.8rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        button {
+            background: #005bea;
+            color: #fff;
+            padding: 0.8rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background 0.3s ease;
+        }
+
+        button:hover {
+            background: #003f91;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: #222;
+            color: #fff;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <header>
+        <img src="images/fm.jpg" alt="Oluwafemi Ayoola">
+        <h1>Oluwafemi Ayoola</h1>
+        <p>Ph.D. Student | Physical Activity Epidemiologist | Data Analyst</p>
+        <div class="social-icons">
+            <a href="https://linkedin.com/in/oluwafemi-a-947342b6"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Freeman-123"><i class="fab fa-github"></i></a>
+            <a href="https://public.tableau.com/app/profile/oluwafemi.ayoola"><i class="fas fa-chart-bar"></i></a>
+        </div>
+    </header>
+
+    <!-- About Me -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a Ph.D. student in Community Health at the University of Illinois Urbana-Champaign,
+            focusing on <strong>Physical Activity Epidemiology</strong> and its relationship to
+            <strong>chronic disease prevention</strong>. I leverage <strong>SQL</strong>, <strong>R</strong>,
+            and <strong>Tableau</strong> to transform data into actionable insights, helping improve
+            population health outcomes through data-driven decision-making.
+        </p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Skills & Tools</h2>
+        <div class="skills-container">
+            <div class="skill"><i class="fas fa-database"></i><p>SQL</p></div>
+            <div class="skill"><i class="fab fa-r-project"></i><p>R</p></div>
+            <div class="skill"><i class="fas fa-chart-line"></i><p>Tableau</p></div>
+            <div class="skill"><i class="fas fa-project-diagram"></i><p>Machine Learning</p></div>
+            <div class="skill"><i class="fas fa-map-marked-alt"></i><p>Geospatial Analysis</p></div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>Featured Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="images/python.png" alt="Python Analytics">
+                <h3>Python Data Analysis</h3>
+                <a href="https://github.com/Freeman-123/Python-Data-Analysis-Portfolio">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="images/sql.png" alt="SQL Portfolio">
+                <h3>SQL Data Projects</h3>
+                <a href="https://github.com/Freeman-123/My-SQL-Portfolio">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="images/tableau.png" alt="Tableau Dashboards">
+                <h3>Tableau Dashboards</h3>
+                <a href="https://public.tableau.com/app/profile/oluwafemi.ayoola">View Dashboards</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="https://formspree.io/f/myformid" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Oluwafemi Ayoola | Built with ❤️ and data</p>
+    </footer>
+
+</body>
+</html>
